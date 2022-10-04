@@ -13,7 +13,7 @@ export function createTranslateLoader(http: HttpClient) {
   // return new TranslateHttpLoader(http, './assets/i18n/', '.json');
   return new TranslateHttpLoader(
     http,
-    // 'https://sfcwebdemo.cgsinc.com/sfcessential/assets/i18n/en.json',
+    //'https://sfcwebdemo.cgsinc.com/sfcessential/assets/i18n/en.json',
     'https://bcnext-api.azure-api.net/VNPLM/PSDP/api/languages/spa.json',
     ''
   );
